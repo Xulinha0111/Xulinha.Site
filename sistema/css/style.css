@@ -1,0 +1,27 @@
+body, ul, li, p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+
+.top {
+    width: 30%;
+    display: flex;
+    background: rgba(136, 59, 203, 0.746);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(3, 26, 21);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 10px;
+    margin-left: 20px;
+}
